@@ -1,32 +1,59 @@
 O que é o projeto DotFiles
 ==========================
 
-	O projeto dotfiles é projeto que fica todas as minhas configurações pessoais, mas que pode servir para 
+	O projeto dotfiles é projeto que fica todas as minhas configurações pessoais, mas que pode servir para qualquer pessoa.
 
 
 
-Como configurar o ZShell
-=========================
-	1. Fazer um clone do repositorio dentro do seu home
-		$ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+Instalando um novo MAC
+========================
 
-	2. OPTIONAL Backup your existing ~/.zshrc file
-		$ cp ~/.zshrc ~/.zshrc.orig
+Lista de programas
+	Google Chrome
+	Sublime 3
+	Adium
+	Sparrow
+	Size up
+	Iterm 2
+	Xcode
 
-	3. Create a new zsh config by copying the zsh template we’ve provided.
-		$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
-	4. Set zsh as your default shell:
-		$ chsh -s /bin/zsh
+Aplicativos / Gems
+	RVM
+		$ curl -L https://get.rvm.io | bash -s stable --ruby
 
-	5. Start / restart zsh (open a new terminal is easy enough…)
+	Command Line Tools
+		Abrir o Xcode.. Preferences.. Downloads .. Selecione o Command Line para instalar
+		http://stackoverflow.com/questions/9329243/xcode-4-4-command-line-tools
 
-	Altere o arquivo "" para apontar para o arquivo do seu projeto
+	Rails
+		$ curl -L https://get.rvm.io | bash -s stable --rails
 
-	Fazer o clone do repositório
+	HomeBrew
+		$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
+	Git
+		$ brew install git
+
+
+
+Como instalar e configurar o ZShell
+====================================
+
+	1. Fazer o clone do repositório
 		$ git clone https://github.com/douglascampos/dotfiles
 
+	2. Marcar o Zshell como seu terminal principal
+		$ chsh -s /bin/zsh
 
+	3. Execute o install.sh para que todos seus arquivos de configuração apontem para a pasta do seu projeto, assim você sempre vai ter suas configurações no Git
+		$ sh install.sh
 
-		sh install.sh
+	4. Execute o restart do terminal para que tudo esteja funcinando
 
+	5. Caso a fonte do Zshell esteja quebrada, tente instalar as fontes
+		- Menlo for power line (https://gist.github.com/qrush/1595572)
+		- Monaco
+
+	6. Se mesmo assim não funcionar volte o commit que ira funcionar
+		$ git reset --hard b8af807
