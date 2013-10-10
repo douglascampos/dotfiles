@@ -16,7 +16,7 @@ Lista de programas
 	Size up
 	Iterm 2
 	Xcode
-
+	Gitx
 
 Aplicativos / Gems
 	RVM
@@ -57,3 +57,25 @@ Como instalar e configurar o ZShell
 
 	6. Se mesmo assim não funcionar volte o commit que ira funcionar
 		$ git reset --hard b8af807
+
+
+Como configurar o Vundle do VIM
+===============================
+
+	Abra o VIM e execute
+	:BundleInstall
+
+	Feche e abra novamente que ira funcionar todos os bundles que estão configurados
+
+
+
+Habilitando o GITx para o terminal
+==================================
+
+	Abra o Gitx em qualquer pasta e no menu superior clique em 
+	"Habilitar gitx para o terminal"
+
+	Pronto, basta abrir uma nova janela do seu Iterm e dentro da pasta do projeto digitar
+	$ gitx
+
+
