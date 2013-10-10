@@ -13,6 +13,26 @@ alias bi="bundle install --path vendor/bundle"
 RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
 #####################################
 
+# from your command line
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+
+# Adding a command to show my current e-mail for this repository.
+# This is the solution to use a different email in work enviroment.
+git() { if [[ $1 == "clone" ]]; then command git "$@"  && echo "===================================================" && cdlast && git config user.email; else command git "$@"; fi; }
+git() { if [[ $1 == "status" ]]; then command git "$@"  && echo "===================================================" && git config user.email; else command git "$@"; fi; }
+git() { if [[ $1 == "st" ]]; then command git "$@"  && echo "===================================================" && git config user.email; else command git "$@"; fi; }
+
+
+#function to create and go to folder :)
+function mcd() {   [ -n "$1" ] && mkdir -p "$@" && cd "$1";   }
+
+
+
+
+
 #eth to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
