@@ -1,7 +1,7 @@
 ######################################
 export PATH="/usr/local/heroku/bin:$PATH"
 alias gk="gitk --all 2> /dev/null &"
-#alias loca="cd ~/projetos/locaweb/"
+alias loca="cd ~/projetos/locaweb/"
 alias gateway='ssh -i ~/.ssh/id_rsa_gateway _dcamargo@nibbler0001.linux.locaweb.com.br'
 
 alias ll="ls -l"
@@ -10,22 +10,22 @@ alias subl="open /Applications/Sublime\ Text\ 2.app"
 
 alias bi="bundle install --path vendor/bundle"
 
-#RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
+RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
 #####################################
+
+#eth to your oh-my-zsh configuration.
+ZSH=$HOME/.oh-my-zsh
 
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
-export DEFAULT_USER="douglascamargocampos"
-
-#eth to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+export DEFAULT_USER="douglascamargo"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
