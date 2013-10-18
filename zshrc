@@ -10,6 +10,9 @@ alias subl="open /Applications/Sublime\ Text\ 2.app"
 
 alias bi="bundle install --path vendor/bundle"
 
+alias mongo="mongod -f /usr/local/Cellar/mongodb/2.4.6/mongod.conf"
+alias redis-server="/usr/local/bin/redis-server"
+
 RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
 #####################################
 

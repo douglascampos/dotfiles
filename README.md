@@ -17,6 +17,7 @@ Lista de programas
 	Iterm 2
 	Xcode
 	Gitx
+	Evernote
 
 Aplicativos / Gems
 	RVM
@@ -34,6 +35,28 @@ Aplicativos / Gems
 
 	Git
 		$ brew install git
+
+	Tiny_TDS
+		$ brew install freetds
+		$ brew install libxml2
+		$ brew install libxslt
+		$ rvm pkg install iconv
+		$ brew tap homebrew/dupes
+		$ brew install libiconv
+		$ rvm reinstall all --with-iconv-dir=$rvm_path/usr --verify-downloads 1
+
+
+		Unistal MacPort
+			$ sudo port -fp uninstall installed
+
+	WGET
+		$ brew install wget
+
+	JAVA 7
+		$ sudo mkdir -p /Library/Internet\ Plug-Ins/disabled 
+		$ sudo mv /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin /Library/Internet\ Plug-Ins/disabled
+		$ sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+		$ sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Commands/javaws /usr/bin/javaws
 
 
 
@@ -77,5 +100,13 @@ Habilitando o GITx para o terminal
 
 	Pronto, basta abrir uma nova janela do seu Iterm e dentro da pasta do projeto digitar
 	$ gitx
+
+
+
+Senhas:
+   Rede / Email -> Locaweb404040#
+   Jabber / CAS	-> locaweb505050
+   Ldap / Code	-> Locaweb505050
+   Service Now	-> 
 
 
