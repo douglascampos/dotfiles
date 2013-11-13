@@ -103,10 +103,13 @@ Habilitando o GITx para o terminal
 
 
 
-Senhas:
-   Rede / Email -> Locaweb404040#
-   Jabber / CAS	-> locaweb505050
-   Ldap / Code	-> Locaweb505050
-   Service Now	-> 
+Themas para o Adium
+===================
 
+Dark Chat:   	http://www.adiumxtras.com/index.php?a=xtras&xtra_id=3154
 
+Mocha Style: 	http://www.adiumxtras.com/index.php?a=xtras&xtra_id=6751
+	     		Icons: http://www.adiumxtras.com/index.php?a=xtras&xtra_id=6752
+				Message: http://www.adiumxtras.com/index.php?a=xtras&xtra_id=6638
+
+h4x0r: 			http://www.adiumxtras.com/index.php?a=xtras&xtra_id=1907
