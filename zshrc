@@ -1,12 +1,11 @@
 ######################################
 export PATH="/usr/local/heroku/bin:$PATH"
-alias gk="gitk --all 2> /dev/null &"
+alias gk="gitk --all 2> /dev/null & "
 alias loca="cd ~/projetos/locaweb/"
 alias gateway='ssh -i ~/.ssh/id_rsa_gateway _dcamargo@nibbler0001.linux.locaweb.com.br'
-
 alias ll="ls -l"
 
-alias subl="open /Applications/Sublime\ Text\ 2.app"
+alias subl="open /Applications/Sublime\ Text.app $1"
 
 alias bi="bundle install --path vendor/bundle"
 
