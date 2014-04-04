@@ -5,7 +5,7 @@ files=( .zshrc )
 for filename in ${files[@]}
 do
 	echo $filename
-	cp ~/$filename ~/dotfiles/	
+	cp ~/$filename ~/projetos/dotfiles/	
 done
 
 echo "adding all files -> ~/dotfiles"
