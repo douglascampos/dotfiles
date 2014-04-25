@@ -1,7 +1,10 @@
 ######################################
 export PATH="/usr/local/heroku/bin:$PATH"
 alias gk="gitk --all 2> /dev/null & "
+
+alias book="cd ~/projetos/bookmarks/"
 alias loca="cd ~/projetos/locaweb/"
+
 alias gateway='ssh -i ~/.ssh/id_rsa_gateway _dcamargo@nibbler0001.linux.locaweb.com.br'
 alias ll="ls -l"
 
@@ -14,6 +17,8 @@ alias redis-server="/usr/local/bin/redis-server"
 
 alias lg="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
+
+alias gcommit="git add .; git commit -am $1"
 
 RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
 #####################################
