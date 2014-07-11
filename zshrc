@@ -18,7 +18,9 @@ alias redis-server="/usr/local/bin/redis-server"
 alias lg="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 
-alias gcommit="git add .; git commit -am $1"
+alias commit="git pull --rebase; git add .; git commit -am $1"
+
+alias mysql-start="mysql.server start"
 
 RPROMPT="\$(~/.rvm/bin/rvm-prompt s i v g)%{$fg[yellow]%}[%*]"
 #####################################
