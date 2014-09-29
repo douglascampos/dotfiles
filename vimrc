@@ -1,13 +1,15 @@
 "Colorscheme
-set background=dark
+set background=light
 set t_Co=256
 set ts=2
-colorscheme jellybeans
+set number
+"colorscheme solarized
 
-syntax on
+syntax enable
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -24,6 +26,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 
 Plugin 'scrooloose/nerdtree'
+Plugin 'altercation/vim-colors-solarized'
 
 autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror
