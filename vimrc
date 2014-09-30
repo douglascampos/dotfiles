@@ -3,7 +3,7 @@ set background=light
 set t_Co=256
 set ts=2
 set number
-"colorscheme solarized
+colorscheme koehler
 
 syntax enable
 
