@@ -78,8 +78,15 @@ Como instalar e configurar o ZShell
 		- Menlo for power line (https://gist.github.com/qrush/1595572)
 		- Monaco
 
-	6. Se mesmo assim não funcionar volte o commit que ira funcionar
-		$ git reset --hard b8af807
+	6. Se mesmo assim não funcionar instale o projeto
+        https://github.com/Lokaltog/powerline-fonts
+
+Como instalar o Solarized
+==========================
+
+    O Solarized é uma paleta de cores mais amigaveis para o iterm, vim, sublime, etc
+    Dentro do projeto tem algumas delas para configurar melhor o solarized e melhorar as cores
+
 
 
 Como configurar o Vundle do VIM
