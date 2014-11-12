@@ -93,7 +93,14 @@ Como configurar o Vundle do VIM
 ===============================
 
 	Abra o VIM e execute
+	:PluginInstall
 	:BundleInstall
+
+	Se mesmo assim não funcionar execute o clone
+	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+	E depois rode novamente o comando
+	:PluginInstall
 
 	Feche e abra novamente que ira funcionar todos os bundles que estão configurados
 
